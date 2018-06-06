@@ -39,6 +39,8 @@ public class GameViewController extends JPanel {
 				
 				 gameModel.generateGame();
 				 
+				 setGameModel(gameModel);
+				 
 				 //gameModel = new GameModel(gameModel.getList());
 				 
 			

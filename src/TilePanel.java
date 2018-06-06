@@ -43,9 +43,9 @@ public class TilePanel extends JPanel {
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		
-		//int nbElements = gameModelHandle.getDigits().length() + 1;
+		int nbElements = gameModelHandle.getDigits().length() + 1;
 		
-		int nbElements = 5;
+		//int nbElements = 5;
 		
 		
 		
@@ -62,7 +62,7 @@ public class TilePanel extends JPanel {
 		
 		
 		
-		//System.out.println(gameModelHandle.getDigits());
+		System.out.println(gameModelHandle.getDigits());
 	}
 	
 	public TilePanel(GameModel gameModel) {
